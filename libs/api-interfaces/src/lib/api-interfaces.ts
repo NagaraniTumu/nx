@@ -8,7 +8,7 @@ export interface Game {
   image?: string;
   description: string;
   price: number;
-  rating?: number;
+  rating: number;
   reviews?: Review[];
 }
 

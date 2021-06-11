@@ -19,6 +19,7 @@ export const games: Game[] = [
     image: '/assets/beans.png', // 'https://media.giphy.com/media/xUNda3pLJEsg4Nedji/giphy.gif',
     description:
       'Help your bug family claim the best real estate in a spilled can of beans.',
+    rating: 5,
     price: 35,
     reviews: randomReviews('settlers-in-the-can')
   },
@@ -27,6 +28,7 @@ export const games: Game[] = [
     name: 'Chess Pie',
     image: '/assets/chess.png', // 'https://media.giphy.com/media/iCZyBnPBLr0dy/giphy.gif',
     description: 'A circular game of Chess that you can eat as you play.',
+    rating: 5,
     price: 15,
     reviews: randomReviews('chess-pie')
   },
@@ -35,6 +37,7 @@ export const games: Game[] = [
     name: 'Purrfection',
     image: '/assets/cat.png', // 'https://media.giphy.com/media/12xMvwvQXJNx0k/giphy.gif',
     description: 'A cat grooming contest goes horribly wrong.',
+    rating: 5,
     price: 45,
     reviews: randomReviews('purrfection')
   }
